@@ -239,8 +239,8 @@ done
 #       Install the ILE/RPG header file.
 
 
-HFILE="${SCRIPTDIR}/zlib.inc"
-MBR="ZLIB.INC"
+HFILE="${SCRIPTDIR}/zlibfixed.rpgle"
+MBR="ZLIBFIXED"
 DEST="${SRCPF}/${MBR}.MBR"
 
 if action_needed "${DEST}" "${HFILE}"
