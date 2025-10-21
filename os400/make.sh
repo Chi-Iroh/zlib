@@ -249,7 +249,7 @@ then    CMD="CPY OBJ('${HFILE}') TOOBJ('${DEST}')"
         # touch -r "${HFILE}" "${DEST}"
 fi
 
-HFILE="${SCRIPTDIR}/zlibfree"
+HFILE="${SCRIPTDIR}/zlibfree.rpgle"
 MBR="ZLIBFREE"
 DEST="${SRCPF}/${MBR}.MBR"
 
